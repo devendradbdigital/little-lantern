@@ -18,11 +18,11 @@ const App: React.FC = () => {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
+          {/* <Route path="/about" element={<AboutPage />} />
           <Route path="/contact-us" element={<ContactPage />} />
           <Route path="/programs" element={<ProgramsPage />} />
           <Route path="/work-with-us" element={<WorkWithUsPage />} />
-          <Route path="/overview" element={<ProgramOverviewPage />} />
+          <Route path="/overview" element={<ProgramOverviewPage />} /> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
